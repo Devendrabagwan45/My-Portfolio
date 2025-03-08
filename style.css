@@ -17,6 +17,32 @@ body {
   width: 100%;
   background-color: #121212;
 }
+@media only screen and (max-width: 600px) {
+  .home-content h1 {
+    font-size: 74px;
+  }
+  .home-content h3 {
+    font-size: 50px;
+  }
+  .home-content p {
+    font-size: 34px;
+  }
+  .home-sci a {
+    height: 55px;
+    width: 55px;
+  }
+  .btn-box {
+    display: inline-block;
+    padding: 22px 38px;
+    background: #0ef;
+    border-radius: 42px;
+    font-size: 26px;
+    color: #081b29;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+}
+
 #nav {
   position: fixed;
   top: 0;
